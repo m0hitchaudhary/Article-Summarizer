@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+        body {
+            font-family: "Protest Guerrilla", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .App-header {
+            background-color: #4b4157;
+            padding: 8px;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-input {
+            width: 97%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            resize: none;
+            border-radius: 4px;
+        }
+
+        .options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .options .btn{
+            margin-left: 15px;
+        }
+
+        .slider {
+            display: flex;
+            align-items: center;
+        }
+
+        .summarize-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4b4157;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+        }
+
+        .summarize-button:hover {
+            background-color: #332c3c;
+        }
+
+        .loading {
+            text-align: center;
+            color: #333;
+        }
+
+        .summary-output {
+            margin-top: 20px;
+        }
+
+        .summary-output h2 {
+            margin-bottom: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+
+        .summary-output p {
+            font-size: 16px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            line-height: 1.6;
+            color: #333;
+        }
