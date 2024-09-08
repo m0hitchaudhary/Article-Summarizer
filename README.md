@@ -16,7 +16,7 @@ This repository contains a web application built with **React** and **Flask** fo
 ## Tech Stack
 
 - **Frontend**: React (JavaScript)
-- **Backend**: Flask (Python)
+- **Backend**: Flask , PyPDF2, Transformer(Python)
 - **NLP**: NLTK / spaCy (Python libraries)
 - **HTTP Requests**: Axios for frontend-backend communication
 
